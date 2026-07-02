@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Kiran Studio - Fine Art Photography & Editorial Cinematography. Inspired by elegance, high-fashion, and raw human emotions. Book a creative session.">
+    <title>Kiran Studio | Fine Art Photography & Cinematography</title>
+
+    <!-- Preconnect and Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Passion+One:wght@400;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- Custom Cursor (Dot) -->
+    <div class="custom-cursor-dot"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo" id="nav-logo">
+                <img src="assets/img/logo.png" alt="Kiran Studio Logo" class="logo-img">
+            </a>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#featured" class="nav-link">Featured</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Disciplines</a>
+                <a href="#contact" class="nav-btn">Book Shoot</a>
+            </nav>
+
+            <button class="mobile-nav-toggle" aria-label="Toggle menu" id="mobile-toggle">
+                <i data-lucide="menu" class="menu-icon"></i>
+                <i data-lucide="x" class="close-icon hidden"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Arrodz Inspired Slideshow + Letter Grid) -->
+    <section id="home" class="hero-section">
+        <!-- Cinematic Video Background -->
+        <div class="hero-video-container">
+            <video class="hero-video" autoplay loop muted playsinline>
+                <source src="assets/img/vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <!-- Giant Letter-by-Letter Logo Grid -->
+            <div class="hero-logo-wrapper">
+                <span class="hero-letter reveal-letter">K</span>
+                <span class="hero-letter reveal-letter">I</span>
+                <span class="hero-letter reveal-letter">R</span>
+
+                <!-- Interactive Letter A CTA -->
+                <div class="hero-a-container">
+                    <a href="#contact" class="hero-o-cta">
+                        <svg class="cta-circle-text" viewBox="0 0 100 100">
+                            <defs>
+                                <path id="circlePath" d="M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0" />
+                            </defs>
+                            <text>
+                                <textPath href="#circlePath" startOffset="0%">• KIRAN STUDIO • CINEMATOGRAPHY •
+                                    PHOTOGRAPHY •
+                                </textPath>
+                            </text>
+                        </svg>
+                        <div class="cta-arrow-box">
+                            <i data-lucide="arrow-up-right" class="cta-arrow"></i>
+                        </div>
+                    </a>
+                </div>
+
+                <span class="hero-letter reveal-letter">N</span>
+            </div>
+
+            <h1 class="hero-h1">
+                <span class="hero-h1-span-1">Fine Art Photography</span>
+                <span class="hero-h1-span-2">for editorial, fashion &amp; campaigns</span>
+            </h1>
+
+            <p class="hero-home-desc">We elevate visual storytelling to its highest aesthetic potential, creating
+                dramatic light-scapes and capturing raw emotional honesty.</p>
+        </div>
+
+        <div class="scroll-indicator">
+            <span class="mouse">
+                <span class="wheel"></span>
+            </span>
+            <span class="scroll-text">Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- Client Logo Marquee (Infinite Scroll) -->
+    <section class="marquee-section">
+        <div class="marquee-wrapper">
+            <div class="marquee-track">
+                <span>LUMIX</span>
+                <span class="marquee-dot"></span>
+                <span>NIKON</span>
+                <span class="marquee-dot"></span>
+                <span>CANON</span>
+                <span class="marquee-dot"></span>
+                <span>SONY</span>
+                <span class="marquee-dot"></span>
+                <span>FUJIFILM</span>
+                <span class="marquee-dot"></span>
+                <span>SIGMA</span>
+                <span class="marquee-dot"></span>
+                <span>LUMIX</span>
+                <span class="marquee-dot"></span>
+                <span>NIKON</span>
+                <span class="marquee-dot"></span>
+                <span>CANON</span>
+                <span class="marquee-dot"></span>
+                <span>SONY</span>
+                <span class="marquee-dot"></span>
+                <span>FUJIFILM</span>
+                <span class="marquee-dot"></span>
+                <span>SIGMA</span>
+                <span class="marquee-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery Section -->
+    <section id="featured" class="gallery-section section-padding">
+        <div class="container">
+            <div class="gallery-header reveal-up">
+                <span class="section-tag">Featured Works</span>
+                <h2 class="section-title">Selected Visual <span class="accent-text">Series</span></h2>
+                <p class="section-desc">A curated collection of our finest wedding, portrait, and documentary
+                    photography.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Row 1: Large + Small stacked -->
+                <div class="gallery-item gallery-item--tall reveal-up" style="animation-delay: 0s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/custom_bride.jpg" alt="Starry Celestial Bride"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/custom_bride.jpg"
+                            data-title="The Starry Bride"
+                            data-desc="An artistic silhouette wedding study captured under clear mountain skies.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Celestial Fine-Art</span>
+                            <h3 class="gallery-title">The Starry Bride</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" style="animation-delay: 0.1s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/haldi_action.jpg" alt="Haldi Ceremony Action"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/haldi_action.jpg"
+                            data-title="Haldi Ceremony"
+                            data-desc="High-energy documentary of the traditional turmeric ritual with family and friends.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Documentary Wedding</span>
+                            <h3 class="gallery-title">Haldi Ceremony</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" style="animation-delay: 0.15s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/custom_couple.jpg" alt="Raw Monochrome Closeness"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/custom_couple.jpg"
+                            data-title="Raw Monochrome Closeness"
+                            data-desc="Intimate black & white editorial shoot capturing genuine emotion.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Monochrome Portrait</span>
+                            <h3 class="gallery-title">Monochrome Closeness</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 2: Wide + Tall -->
+                <div class="gallery-item gallery-item--wide reveal-up" style="animation-delay: 0.2s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/custom_window.jpg" alt="Sanctuary Window Frames"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/custom_window.jpg"
+                            data-title="Sanctuary Window Frames"
+                            data-desc="Candid compositions set against aged timber windows and soft natural foliage.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Editorial Candid</span>
+                            <h3 class="gallery-title">Sanctuary Window Frames</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal-up" style="animation-delay: 0.25s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/haldi_portrait.jpg" alt="Haldi Portrait"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/haldi_portrait.jpg"
+                            data-title="The Haldi Celebration"
+                            data-desc="Intimate macro portrait during the turmeric ceremony, with rich pigments and scattered rose petals.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Documentary Wedding</span>
+                            <h3 class="gallery-title">The Haldi Celebration</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" style="animation-delay: 0.3s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/haldi_deco.jpg" alt="Wedding Decor Details"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/haldi_deco.jpg"
+                            data-title="Wedding Décor Details"
+                            data-desc="Vibrant traditional décor with hand-painted signs, marigold garlands, and rose petals.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Décor & Details</span>
+                            <h3 class="gallery-title">Wedding Décor Details</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Row 3: New Wedding Reception Photos -->
+                <div class="gallery-item gallery-item--wide reveal-up" style="animation-delay: 0.35s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/wedding_fireworks.jpg" alt="Fireworks Couple Celebration"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/wedding_fireworks.jpg"
+                            data-title="Fireworks Celebration"
+                            data-desc="A magical couple portrait under bursting fireworks and cascading confetti at the wedding reception.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Wedding Reception</span>
+                            <h3 class="gallery-title">Fireworks Celebration</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item reveal-up" style="animation-delay: 0.4s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/wedding_dance.jpg" alt="Wedding Dance Party"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/wedding_dance.jpg"
+                            data-title="Dance Floor Energy"
+                            data-desc="High-energy motion-blur dance floor captures showcasing raw joy and cinematic long-exposure techniques.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Cinematic Motion</span>
+                            <h3 class="gallery-title">Dance Floor Energy</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal-up" style="animation-delay: 0.45s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/wedding_couple_portrait.jpg" alt="Krishna & Naina Portrait"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/wedding_couple_portrait.jpg"
+                            data-title="Krishna & Naina"
+                            data-desc="An intimate close-up couple portrait with dramatic lighting and the Kiran Studio signature typography overlay.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Signature Portrait</span>
+                            <h3 class="gallery-title">Krishna & Naina</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--tall reveal-up" style="animation-delay: 0.5s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/couple1.webp"
+                            alt="Black and white couple portrait with palace architecture"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/couple1.webp"
+                            data-title="Palace Double Exposure"
+                            data-desc="A monochrome couple study layered with heritage architecture for a timeless editorial frame.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Monochrome Wedding</span>
+                            <h3 class="gallery-title">Palace Double Exposure</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item gallery-item--wide reveal-up" style="animation-delay: 0.55s;">
+                    <div class="gallery-img-wrap">
+                        <img src="assets/img/couple.webp" alt="Bride and groom seated in a garden with rose petals"
+                            class="gallery-img lightbox-trigger" data-img-src="assets/img/couple.webp"
+                            data-title="Garden Mehendi Portrait"
+                            data-desc="A soft garden portrait with pastel attire, floral details, and scattered rose petals.">
+                        <div class="gallery-overlay">
+                            <span class="gallery-cat">Mehendi Portrait</span>
+                            <h3 class="gallery-title">Garden Mehendi Portrait</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+        <div class="container">
+            <div class="grid grid-2-col">
+                <div class="about-visual reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="assets/img/bhaiya.webp" alt="Kiran Studio photographer" class="about-img">
+                        <div class="about-badge">
+                            <span class="badge-number">12+</span>
+                            <span class="badge-text">Years Crafting Vision</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-info reveal-right">
+                    <span class="section-tag">About Kiran Studio</span>
+                    <h2 class="section-title">The Art of Seeing Behind the Lens</h2>
+                    <p class="section-desc">At Kiran Studio, we believe every moment deserves to be remembered — from
+                        the grandest wedding to the quietest newborn breath.</p>
+
+                    <p class="about-body">We specialize in wedding photography, pre-wedding shoots, haldi & mehendi
+                        functions, maternity sessions, baby & newborn shoots, and family portraits. Based in Dabra,
+                        Gwalior, we travel across Madhya Pradesh and beyond to document your most precious milestones
+                        with cinematic artistry and a genuine heart.</p>
+
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="1000">1000+</span>
+                            <span class="stat-label">Weddings Shot</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="10">10+</span>
+                            <span class="stat-label">Awards Received</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num" data-val="12">12+</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services/Disciplines Section (Interactive Hover Reveals) -->
+    <section id="services" class="services-section section-padding">
+        <div class="container">
+            <div class="services-header text-center">
+                <span class="section-tag">Disciplines</span>
+                <h2 class="section-title">What We Shoot</h2>
+                <p class="section-subtitle">From grand wedding celebrations to quiet newborn moments — we capture every
+                    chapter of life with heart and artistry.</p>
+            </div>
+
+            <div class="services-interactive-list">
+                <!-- Service Item 1 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/wedding.webp">
+                    <div class="service-num">01</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Wedding Photography</h3>
+                        <p class="service-short-desc">Full-day documentary wedding coverage — rituals, emotions,
+                            fireworks, and everything in between.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+
+                <!-- Service Item 2 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/prewedding.webp"
+                    style="animation-delay: 0.08s;">
+                    <div class="service-num">02</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Pre-Wedding Shoots</h3>
+                        <p class="service-short-desc">Romantic, cinematic couple sessions at handpicked locations with
+                            editorial-grade lighting.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+
+                <!-- Service Item 3 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/haldi.webp"
+                    style="animation-delay: 0.16s;">
+                    <div class="service-num">03</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Haldi, Mehendi &amp; Functions</h3>
+                        <p class="service-short-desc">High-energy documentary coverage of all pre-wedding rituals —
+                            vibrant colours, raw candid joy.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+
+                <!-- Service Item 4 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/maternity.jpg"
+                    style="animation-delay: 0.24s;">
+                    <div class="service-num">04</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Maternity Shoots</h3>
+                        <p class="service-short-desc">Soft, timeless maternity portraits that celebrate the beauty and
+                            emotion of motherhood.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+
+                <!-- Service Item 5 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/baby.jpg"
+                    style="animation-delay: 0.32s;">
+                    <div class="service-num">05</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Baby &amp; Newborn Shoots</h3>
+                        <p class="service-short-desc">Precious, safe, and beautifully lit baby portraits capturing every
+                            tiny detail of new life.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+
+                <!-- Service Item 6 -->
+                <div class="service-item reveal-up" data-hover-img="assets/img/custom_couple.jpg"
+                    style="animation-delay: 0.4s;">
+                    <div class="service-num">06</div>
+                    <div class="service-main">
+                        <h3 class="service-title-text">Portrait &amp; Family Sessions</h3>
+                        <p class="service-short-desc">Relaxed studio or outdoor portrait sessions for individuals,
+                            couples, and families.</p>
+                    </div>
+                    <div class="service-icon-arrow">
+                        <i data-lucide="arrow-up-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Floating Hover Image Container -->
+            <div class="hover-preview-container" id="hover-preview">
+                <img src="" alt="Service Preview" class="hover-preview-img" id="hover-preview-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Slider -->
+    <section class="reviews-section section-padding">
+        <div class="container text-center">
+            <span class="section-tag">Reviews</span>
+            <h2 class="section-title">Client Conversations</h2>
+
+            <div class="reviews-slider-container">
+                <div class="reviews-slider">
+                    <div class="reviews-slide active">
+                        <p class="review-quote">"Kiran Studio doesn't capture pictures; they render emotion in silver
+                            halide and pixel. The contrast and light handling during our session was masterclass."</p>
+                        <h4 class="review-author">Radhika Sharma</h4>
+                        <span class="review-date">A Journalist</span>
+                    </div>
+
+                    <div class="reviews-slide">
+                        <p class="review-quote">"Our wedding story reads like a classic film. Kiran's editorial layout
+                            and dramatic composition frames feel completely distinct from traditional photos."</p>
+                        <h4 class="review-author">Vikrant &amp; Ruchi</h4>
+                        <span class="review-date">Bangalore Couple Series</span>
+                    </div>
+
+                    <div class="reviews-slide">
+                        <p class="review-quote">"The clarity and scale of their fine art mountain landscape prints are
+                            unmatched. They immediately became the centerpieces of our architectural showroom."</p>
+                        <h4 class="review-author">Krishna Sahu</h4>
+                        <span class="review-date">An Engineer</span>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="control-btn prev" id="slider-prev" aria-label="Previous Review">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    <div class="slider-dots" id="slider-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="control-btn next" id="slider-next" aria-label="Next Review">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking & Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+        <div class="container">
+            <div class="grid grid-2-col">
+
+                <div class="contact-info-card reveal-left">
+                    <span class="section-tag">Inquire</span>
+                    <h2 class="section-title">Let's Frame <br>Your Concepts</h2>
+                    <p class="section-desc">Got a lookbook project, wedding schedule, or licensing requirement? Send our
+                        production desk a message and let's craft something memorable.</p>
+
+                    <div class="contact-details">
+                        <div class="detail-item">
+                            <div class="detail-icon"><i data-lucide="map-pin"></i></div>
+                            <div class="detail-text">
+                                <strong>HQ Studio</strong>
+                                <span>Dabra, Gwalior (M.P) 475110</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon"><i data-lucide="mail"></i></div>
+                            <div class="detail-text">
+                                <strong>Creative Desk</strong>
+                                <span>deskdreams84@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon"><i data-lucide="phone"></i></div>
+                            <div class="detail-text">
+                                <strong>Studio Hotline</strong>
+                                <span>8109394951</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="studio-hours">
+                        <h5>Production Desk</h5>
+                        <p>Monday — Friday: 9:00 AM — 6:00 PM</p>
+                        <p>Weekends: Session Booking Only</p>
+                    </div>
+                </div>
+
+                <div class="booking-form-container reveal-right">
+                    <form id="booking-form" class="booking-form"
+                        action="https://api.web3forms.com/submit/d4ad0051-b23e-4792-a0e4-c58d24ec8e7e" method="POST">
+                        <input type="hidden" name="access_key" value="d4ad0051-b23e-4792-a0e4-c58d24ec8e7e">
+                        <input type="hidden" name="apikey" value="d4ad0051-b23e-4792-a0e4-c58d24ec8e7e">
+                        <input type="hidden" name="subject" value="New Kiran Studio consultation request">
+                        <input type="hidden" name="from_name" value="Kiran Studio Website">
+                        <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off">
+                        <h3 class="form-title">Consultation Pitch</h3>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-name">Your Name *</label>
+                                <input type="text" id="form-name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="form-email">Email Address *</label>
+                                <input type="email" id="form-email" name="email" required
+                                    placeholder="john@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group-row">
+                            <div class="form-group">
+                                <label for="form-service">Session Class *</label>
+                                <select id="form-service" name="service" required>
+                                    <option value="" disabled selected>Select session type...</option>
+                                    <option value="portrait">Editorial Portraiture</option>
+                                    <option value="wedding">Fine-Art Wedding Cover</option>
+                                    <option value="fashion">Fashion Lookbook / Campaign</option>
+                                    <option value="landscape">Commercial Licensing</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-date">Preferred Date</label>
+                                <input type="date" id="form-date" name="preferred_date">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="form-message">Creative Narrative *</label>
+                            <textarea id="form-message" name="message" rows="5" required
+                                placeholder="Outline the mood, art references, styling elements, and visual themes..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block submit-btn">
+                            <span>Submit Concept</span>
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                    </form>
+
+                    <!-- Form Success Overlay -->
+                    <div class="form-success-overlay hidden" id="form-success">
+                        <div class="success-content">
+                            <div class="success-icon-box">
+                                <i data-lucide="check" class="success-icon"></i>
+                            </div>
+                            <h3>Concept Lodged</h3>
+                            <p>We received your creative outline. A confirmation has been routed to your inbox. Our
+                                visual editor will coordinate a feedback call within 24 hours.</p>
+                            <button class="btn btn-secondary" id="success-close">Return</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <a href="#" class="logo">
+                    <img src="assets/img/logo.png" alt="Kiran Studio Logo" class="logo-img">
+                </a>
+
+                <div class="footer-socials">
+                    <a href="https://www.instagram.com/_kiranstudio/" target="_blank" rel="noopener" class="social-link"
+                        aria-label="Instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                        </svg>
+                    </a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" class="social-link"
+                        aria-label="YouTube">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z" />
+                            <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" class="social-link"
+                        aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" rel="noopener" class="social-link"
+                        aria-label="Twitter / X">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 4l16 16" />
+                            <path d="M4 20L20 4" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Kiran Studio. Crafted in luxury dark aesthetics.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms &amp; Licensing</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-modal" id="lightbox" aria-hidden="true" role="dialog">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close Lightbox">
+            <i data-lucide="x"></i>
+        </button>
+
+        <button class="lightbox-nav prev" id="lightbox-prev" aria-label="Previous Image">
+            <i data-lucide="chevron-left"></i>
+        </button>
+
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightbox-img">
+            <div class="lightbox-caption">
+                <h4 class="lightbox-title" id="lightbox-title"></h4>
+                <p class="lightbox-desc" id="lightbox-desc"></p>
+            </div>
+        </div>
+
+        <button class="lightbox-nav next" id="lightbox-next" aria-label="Next Image">
+            <i data-lucide="chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- Javascript logic -->
+    <script src="app.js"></script>
+</body>
+
+</html>
