@@ -1,78 +1,55 @@
-<div align="center">
+# 📸 Kiran Studio Portfolio
 
-# 📸 KIRAN STUDIO PORTFOLIO
+A modern, responsive photography portfolio website built using **HTML, CSS, and JavaScript**. This website showcases Kiran Studio's photography services, featured galleries, and contact information with an elegant and user-friendly interface.
 
-### ✨ Capturing Moments • Creating Memories • Preserving Stories ✨
+## 🌐 Live Demo
 
-<p>
-  <a href="https://krishnasahu810.github.io/KIRAN-STUDIO-PORTFOLIO/">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-blue?style=for-the-badge">
-  </a>
-  <a href="https://github.com/Krishnasahu810/KIRAN-STUDIO-PORTFOLIO">
-    <img src="https://img.shields.io/github/stars/Krishnasahu810/KIRAN-STUDIO-PORTFOLIO?style=for-the-badge">
-  </a>
-  <img src="https://img.shields.io/github/last-commit/Krishnasahu810/KIRAN-STUDIO-PORTFOLIO?style=for-the-badge">
-</p>
-
-### 🚀 Live Website
-
-## 🌐 https://krishnasahu810.github.io/KIRAN-STUDIO-PORTFOLIO/
-
-</div>
+🚀 **Website:**  
+https://krishnasahu810.github.io/KIRAN-STUDIO-PORTFOLIO/
 
 ---
 
-# 📖 About
+## 📷 Preview
 
-Kiran Studio Portfolio is a **modern, responsive photography portfolio website** developed using **HTML, CSS, and JavaScript**.
-
-The website highlights professional photography services including weddings, pre-wedding shoots, maternity photography, baby shoots, haldi ceremonies, and cinematic showcases through a clean and elegant user interface.
+<img width="100%" alt="Kiran Studio Portfolio" src="assets/img/logo.png">
 
 ---
 
-# ✨ Features
+## ✨ Features
 
-✅ Fully Responsive Design
-
-✅ Beautiful Modern UI
-
-✅ Smooth Scrolling
-
-✅ Interactive Navigation
-
-✅ Photography Gallery
-
-✅ Cinematic Video Section
-
-✅ Mobile Friendly
-
-✅ Fast Loading
-
-✅ Clean Code Structure
-
-✅ Cross Browser Compatible
+- 📱 Fully Responsive Design
+- 🎨 Modern & Clean UI
+- 📸 Photography Portfolio Gallery
+- 🎥 Embedded Video Section
+- ⚡ Smooth Animations
+- 🖼️ Image Showcase
+- 📞 Contact Section
+- 🌙 Attractive Layout
+- 🚀 Fast Loading
+- 💻 Cross-Browser Compatible
 
 ---
 
-# 🛠 Tech Stack
+## 🛠️ Built With
 
-| Technology | Used |
-|------------|------|
-| HTML5 | ✅ |
-| CSS3 | ✅ |
-| JavaScript | ✅ |
-| Git | ✅ |
-| GitHub Pages | ✅ |
+- HTML5
+- CSS3
+- JavaScript
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```text
+```
 KIRAN-STUDIO-PORTFOLIO
 │
 ├── assets
 │   └── img
+│       ├── baby.jpg
+│       ├── wedding.webp
+│       ├── maternity.jpg
+│       ├── logo.png
+│       └── ...
 │
 ├── index.html
 ├── style.css
@@ -82,35 +59,25 @@ KIRAN-STUDIO-PORTFOLIO
 
 ---
 
-# 📸 Photography Categories
+## 🚀 Getting Started
 
-- 💍 Wedding Photography
-- ❤️ Couple Photography
-- 🌄 Pre-Wedding Shoot
-- 👶 Baby Photography
-- 🤰 Maternity Photography
-- 🌼 Haldi Ceremony
-- 📷 Custom Portraits
-
----
-
-# 🚀 Installation
-
-Clone this repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Krishnasahu810/KIRAN-STUDIO-PORTFOLIO.git
 ```
 
-Go inside project
+### Navigate to the Project
 
 ```bash
 cd KIRAN-STUDIO-PORTFOLIO
 ```
 
-Open
+### Run the Website
 
-```text
+Simply open:
+
+```
 index.html
 ```
 
@@ -118,53 +85,90 @@ in your browser.
 
 ---
 
-# 🌍 Deployment
+## 🌍 Deployment
 
-### GitHub Pages
+This project is hosted using **GitHub Pages**.
 
-## 🔗 Live Demo
+### Live Website
 
-### https://krishnasahu810.github.io/KIRAN-STUDIO-PORTFOLIO/
+👉 https://krishnasahu810.github.io/KIRAN-STUDIO-PORTFOLIO/
 
 ---
 
-# 📈 Future Improvements
+## 📸 Gallery Includes
 
-- Online Booking System
+- Wedding Photography
+- Pre-Wedding Shoots
+- Couple Photography
+- Baby Photography
+- Maternity Photography
+- Haldi Ceremony
+- Custom Portraits
+
+---
+
+## 📈 Future Improvements
+
+- Booking Form
 - Admin Dashboard
-- Customer Testimonials
-- SEO Optimization
-- Dark Mode
-- Contact Form Backend
 - Image Filtering
+- Dark Mode
+- Testimonials
 - Instagram Integration
+- SEO Optimization
 
 ---
 
-# 👨‍💻 Developer
+## 🤝 Contributing
 
-## Krishna Sahu
+Contributions are welcome!
 
-GitHub
+1. Fork the repository
+2. Create a feature branch
 
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Open a Pull Request
+
+---
+
+## 👨‍💻 Author
+
+**Krishna Sahu**
+
+GitHub:
 https://github.com/Krishnasahu810
 
 ---
 
-# ⭐ Show Your Support
+## ⭐ Support
 
-If you like this project,
-
-please consider giving it a ⭐ on GitHub.
-
-It motivates me to build more amazing projects.
+If you like this project, don't forget to ⭐ star the repository!
 
 ---
 
-<div align="center">
+## 📄 License
 
-## ❤️ Thank You for Visiting ❤️
+This project is open-source and available under the **MIT License**.
 
-### ⭐ Don't forget to Star the Repository ⭐
+---
 
-</div>
+## ❤️ Thank You
+
+Thank you for visiting **Kiran Studio Portfolio**.
+
+Have a great day! 🚀
